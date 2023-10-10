@@ -108,3 +108,7 @@ button:disabled:hover {
   color: #1f1f1f;
   pointer-events: none;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

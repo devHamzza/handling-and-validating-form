@@ -4,8 +4,8 @@ import SimpleInput from './components/SimpleInput';
 function App() {
   return (
     <div className="app">
-      {/* <BasicForm/> */}
-      <SimpleInput/>
+      <BasicForm/>
+      {/* <SimpleInput/> */}
     </div>
   );
 }

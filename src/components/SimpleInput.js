@@ -51,7 +51,7 @@ const SimpleInput = () => {
           onChange={onNameInputChange}
           value={nameInput}
           onBlur={onNameInputBlur}
-          placeholder={nameInputIsInvalid ? "Name can not be empty" : ""}
+          placeholder={nameInputIsInvalid ? "Name can not be empty" : ''}
         />
       </div>
       <div className={emailClasses}>
@@ -63,9 +63,7 @@ const SimpleInput = () => {
           value={emailInput}
           onBlur={onEmailInputBlur}
         />
-        {emailInputIsInvalid && (
-          <p className="error-text">Enter a Valid Email Address</p>
-        )}
+        {emailInputIsInvalid && <p className="error-text">Enter a Valid Email Address</p>}
       </div>
       <div className="form-actions">
         <button disabled={!formIsValid}>Submit</button>
