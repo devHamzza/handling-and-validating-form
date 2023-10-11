@@ -1,7 +1,7 @@
 import { useState } from "react";
 import FormResult from "./components/FormResult";
 import BasicForm from "./components/BasicForm";
-import SimpleInput from "./components/SimpleInput";
+// import SimpleInput from "./components/SimpleInput";
 
 function App(props) {
   const [formData, setformData] = useState();
